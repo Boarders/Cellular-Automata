@@ -1,0 +1,15 @@
+cabal: Entering directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-3851/StateVar-1.1.0.4'
+Configuring StateVar-1.1.0.4...
+Preprocessing library for StateVar-1.1.0.4..
+Building library for StateVar-1.1.0.4..
+[1 of 1] Compiling Data.StateVar    ( src/Data/StateVar.hs, dist/dist-sandbox-f7212ff3/build/Data/StateVar.o )
+[1 of 1] Compiling Data.StateVar    ( src/Data/StateVar.hs, dist/dist-sandbox-f7212ff3/build/Data/StateVar.p_o )
+Preprocessing library for StateVar-1.1.0.4..
+Running Haddock on library for StateVar-1.1.0.4..
+Haddock coverage:
+ 100% ( 15 / 15) in 'Data.StateVar'
+Warning: Data.StateVar: could not find link destinations for:
+    ~
+Documentation created: dist/dist-sandbox-f7212ff3/doc/html/StateVar/index.html
+Installing library in /Users/callanmcgill/Documents/Haskell/cellularAutomata/.cabal-sandbox/lib/x86_64-osx-ghc-8.2.1/StateVar-1.1.0.4-LujcYvYAkps2n0ooX2fxnO
+cabal: Leaving directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-3851/StateVar-1.1.0.4'

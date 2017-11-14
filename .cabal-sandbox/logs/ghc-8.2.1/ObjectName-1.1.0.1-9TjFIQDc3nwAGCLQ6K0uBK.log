@@ -1,0 +1,14 @@
+cabal: Entering directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-3851/ObjectName-1.1.0.1'
+Configuring ObjectName-1.1.0.1...
+Preprocessing library for ObjectName-1.1.0.1..
+Building library for ObjectName-1.1.0.1..
+[1 of 1] Compiling Data.ObjectName  ( src/Data/ObjectName.hs, dist/dist-sandbox-f7212ff3/build/Data/ObjectName.o )
+[1 of 1] Compiling Data.ObjectName  ( src/Data/ObjectName.hs, dist/dist-sandbox-f7212ff3/build/Data/ObjectName.p_o )
+Preprocessing library for ObjectName-1.1.0.1..
+Running Haddock on library for ObjectName-1.1.0.1..
+Haddock coverage:
+ 100% (  3 /  3) in 'Data.ObjectName'
+Documentation created:
+dist/dist-sandbox-f7212ff3/doc/html/ObjectName/index.html
+Installing library in /Users/callanmcgill/Documents/Haskell/cellularAutomata/.cabal-sandbox/lib/x86_64-osx-ghc-8.2.1/ObjectName-1.1.0.1-9TjFIQDc3nwAGCLQ6K0uBK
+cabal: Leaving directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-3851/ObjectName-1.1.0.1'

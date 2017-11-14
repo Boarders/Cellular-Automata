@@ -1,0 +1,28 @@
+cabal: Entering directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-16206/contravariant-1.4'
+Configuring contravariant-1.4...
+Preprocessing library for contravariant-1.4..
+Building library for contravariant-1.4..
+[1 of 4] Compiling Data.Functor.Contravariant ( src/Data/Functor/Contravariant.hs, dist/dist-sandbox-f7212ff3/build/Data/Functor/Contravariant.o )
+[2 of 4] Compiling Data.Functor.Contravariant.Divisible ( src/Data/Functor/Contravariant/Divisible.hs, dist/dist-sandbox-f7212ff3/build/Data/Functor/Contravariant/Divisible.o )
+[3 of 4] Compiling Data.Functor.Contravariant.Compose ( src/Data/Functor/Contravariant/Compose.hs, dist/dist-sandbox-f7212ff3/build/Data/Functor/Contravariant/Compose.o )
+[4 of 4] Compiling Data.Functor.Contravariant.Generic ( src/Data/Functor/Contravariant/Generic.hs, dist/dist-sandbox-f7212ff3/build/Data/Functor/Contravariant/Generic.o )
+[1 of 4] Compiling Data.Functor.Contravariant ( src/Data/Functor/Contravariant.hs, dist/dist-sandbox-f7212ff3/build/Data/Functor/Contravariant.p_o )
+[2 of 4] Compiling Data.Functor.Contravariant.Divisible ( src/Data/Functor/Contravariant/Divisible.hs, dist/dist-sandbox-f7212ff3/build/Data/Functor/Contravariant/Divisible.p_o )
+[3 of 4] Compiling Data.Functor.Contravariant.Compose ( src/Data/Functor/Contravariant/Compose.hs, dist/dist-sandbox-f7212ff3/build/Data/Functor/Contravariant/Compose.p_o )
+[4 of 4] Compiling Data.Functor.Contravariant.Generic ( src/Data/Functor/Contravariant/Generic.hs, dist/dist-sandbox-f7212ff3/build/Data/Functor/Contravariant/Generic.p_o )
+Preprocessing library for contravariant-1.4..
+Running Haddock on library for contravariant-1.4..
+Haddock coverage:
+  89% ( 17 / 19) in 'Data.Functor.Contravariant'
+  Missing documentation for:
+    Predicate (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc16876_0/ghc_1.hscpp:391)
+    comparisonEquivalence (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc16876_0/ghc_1.hscpp:475)
+ 100% ( 10 / 10) in 'Data.Functor.Contravariant.Divisible'
+ 100% (  4 /  4) in 'Data.Functor.Contravariant.Compose'
+ 100% (  3 /  3) in 'Data.Functor.Contravariant.Generic'
+Warning: Data.Functor.Contravariant.Generic: could not find link destinations for:
+    GDeciding GDeciding1
+Documentation created:
+dist/dist-sandbox-f7212ff3/doc/html/contravariant/index.html
+Installing library in /Users/callanmcgill/Documents/Haskell/cellularAutomata/.cabal-sandbox/lib/x86_64-osx-ghc-8.2.1/contravariant-1.4-Dmlj1NfVpYNKLKLSp419X8
+cabal: Leaving directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-16206/contravariant-1.4'

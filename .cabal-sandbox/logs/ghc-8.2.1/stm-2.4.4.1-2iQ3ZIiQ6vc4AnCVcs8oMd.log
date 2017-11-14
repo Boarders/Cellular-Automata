@@ -1,0 +1,62 @@
+cabal: Entering directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-3855/stm-2.4.4.1'
+Configuring stm-2.4.4.1...
+Preprocessing library for stm-2.4.4.1..
+Building library for stm-2.4.4.1..
+[ 1 of 10] Compiling Control.Concurrent.STM.TBQueue ( Control/Concurrent/STM/TBQueue.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM/TBQueue.o )
+[ 2 of 10] Compiling Control.Concurrent.STM.TChan ( Control/Concurrent/STM/TChan.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM/TChan.o )
+[ 3 of 10] Compiling Control.Concurrent.STM.TMVar ( Control/Concurrent/STM/TMVar.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM/TMVar.o )
+[ 4 of 10] Compiling Control.Concurrent.STM.TQueue ( Control/Concurrent/STM/TQueue.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM/TQueue.o )
+[ 5 of 10] Compiling Control.Concurrent.STM.TVar ( Control/Concurrent/STM/TVar.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM/TVar.o )
+[ 6 of 10] Compiling Control.Concurrent.STM.TArray ( Control/Concurrent/STM/TArray.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM/TArray.o )
+[ 7 of 10] Compiling Control.Monad.STM ( Control/Monad/STM.hs, dist/dist-sandbox-f7212ff3/build/Control/Monad/STM.o )
+[ 8 of 10] Compiling Control.Concurrent.STM ( Control/Concurrent/STM.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM.o )
+[ 9 of 10] Compiling Control.Concurrent.STM.TSem ( Control/Concurrent/STM/TSem.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM/TSem.o )
+[10 of 10] Compiling Control.Sequential.STM ( Control/Sequential/STM.hs, dist/dist-sandbox-f7212ff3/build/Control/Sequential/STM.o )
+[ 1 of 10] Compiling Control.Concurrent.STM.TBQueue ( Control/Concurrent/STM/TBQueue.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM/TBQueue.p_o )
+[ 2 of 10] Compiling Control.Concurrent.STM.TChan ( Control/Concurrent/STM/TChan.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM/TChan.p_o )
+[ 3 of 10] Compiling Control.Concurrent.STM.TMVar ( Control/Concurrent/STM/TMVar.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM/TMVar.p_o )
+[ 4 of 10] Compiling Control.Concurrent.STM.TQueue ( Control/Concurrent/STM/TQueue.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM/TQueue.p_o )
+[ 5 of 10] Compiling Control.Concurrent.STM.TVar ( Control/Concurrent/STM/TVar.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM/TVar.p_o )
+[ 6 of 10] Compiling Control.Concurrent.STM.TArray ( Control/Concurrent/STM/TArray.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM/TArray.p_o )
+[ 7 of 10] Compiling Control.Monad.STM ( Control/Monad/STM.hs, dist/dist-sandbox-f7212ff3/build/Control/Monad/STM.p_o )
+[ 8 of 10] Compiling Control.Concurrent.STM ( Control/Concurrent/STM.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM.p_o )
+[ 9 of 10] Compiling Control.Concurrent.STM.TSem ( Control/Concurrent/STM/TSem.hs, dist/dist-sandbox-f7212ff3/build/Control/Concurrent/STM/TSem.p_o )
+[10 of 10] Compiling Control.Sequential.STM ( Control/Sequential/STM.hs, dist/dist-sandbox-f7212ff3/build/Control/Sequential/STM.p_o )
+Preprocessing library for stm-2.4.4.1..
+Running Haddock on library for stm-2.4.4.1..
+Haddock coverage:
+ 100% ( 13 / 13) in 'Control.Concurrent.STM.TBQueue'
+ 100% ( 18 / 18) in 'Control.Concurrent.STM.TChan'
+ 100% ( 16 / 16) in 'Control.Concurrent.STM.TMVar'
+ 100% ( 12 / 12) in 'Control.Concurrent.STM.TQueue'
+ 100% ( 13 / 13) in 'Control.Concurrent.STM.TVar'
+ 100% (  2 /  2) in 'Control.Concurrent.STM.TArray'
+  90% (  9 / 10) in 'Control.Monad.STM'
+  Missing documentation for:
+    check (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4590_0/ghc_15.hscpp:145)
+ 100% (  8 /  8) in 'Control.Concurrent.STM'
+  40% (  2 /  5) in 'Control.Concurrent.STM.TSem'
+  Missing documentation for:
+    newTSem (Control/Concurrent/STM/TSem.hs:42)
+    waitTSem (Control/Concurrent/STM/TSem.hs:45)
+    signalTSem (Control/Concurrent/STM/TSem.hs:51)
+   0% (  0 / 11) in 'Control.Sequential.STM'
+  Missing documentation for:
+    Module header
+    STM (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4590_0/ghc_17.hscpp:106)
+    atomically (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4590_0/ghc_17.hscpp:124)
+    throwSTM (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4590_0/ghc_17.hscpp:131)
+    catchSTM (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4590_0/ghc_17.hscpp:134)
+    TVar (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4590_0/ghc_17.hscpp:149)
+    newTVar (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4590_0/ghc_17.hscpp:152)
+    newTVarIO (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4590_0/ghc_17.hscpp:155)
+    readTVar (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4590_0/ghc_17.hscpp:160)
+    readTVarIO (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4590_0/ghc_17.hscpp:163)
+    writeTVar (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4590_0/ghc_17.hscpp:166)
+Warning: Control.Concurrent.STM.TArray: could not find link destinations for:
+    getNumElements unsafeNewArray_ unsafeRead unsafeWrite
+Warning: Control.Monad.STM: could not find link destinations for:
+    getNumElements unsafeNewArray_ unsafeRead unsafeWrite
+Documentation created: dist/dist-sandbox-f7212ff3/doc/html/stm/index.html
+Installing library in /Users/callanmcgill/Documents/Haskell/cellularAutomata/.cabal-sandbox/lib/x86_64-osx-ghc-8.2.1/stm-2.4.4.1-2iQ3ZIiQ6vc4AnCVcs8oMd
+cabal: Leaving directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-3855/stm-2.4.4.1'

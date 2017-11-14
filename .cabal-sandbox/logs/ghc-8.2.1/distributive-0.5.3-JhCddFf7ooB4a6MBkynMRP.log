@@ -1,0 +1,21 @@
+cabal: Entering directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-16205/distributive-0.5.3'
+[1 of 1] Compiling Main             ( /var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-16205/distributive-0.5.3/dist/dist-sandbox-f7212ff3/setup/setup.hs, /var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-16205/distributive-0.5.3/dist/dist-sandbox-f7212ff3/setup/Main.o )
+Linking /var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-16205/distributive-0.5.3/dist/dist-sandbox-f7212ff3/setup/setup ...
+Configuring distributive-0.5.3...
+Preprocessing library for distributive-0.5.3..
+Building library for distributive-0.5.3..
+[1 of 2] Compiling Data.Distributive ( src/Data/Distributive.hs, dist/dist-sandbox-f7212ff3/build/Data/Distributive.o )
+[2 of 2] Compiling Data.Distributive.Generic ( src/Data/Distributive/Generic.hs, dist/dist-sandbox-f7212ff3/build/Data/Distributive/Generic.o )
+[1 of 2] Compiling Data.Distributive ( src/Data/Distributive.hs, dist/dist-sandbox-f7212ff3/build/Data/Distributive.p_o )
+[2 of 2] Compiling Data.Distributive.Generic ( src/Data/Distributive/Generic.hs, dist/dist-sandbox-f7212ff3/build/Data/Distributive/Generic.p_o )
+Preprocessing library for distributive-0.5.3..
+Running Haddock on library for distributive-0.5.3..
+Haddock coverage:
+ 100% (  5 /  5) in 'Data.Distributive'
+  75% (  3 /  4) in 'Data.Distributive.Generic'
+  Missing documentation for:
+    GDistributive (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc16985_0/ghc_3.hscpp:155)
+Documentation created:
+dist/dist-sandbox-f7212ff3/doc/html/distributive/index.html
+Installing library in /Users/callanmcgill/Documents/Haskell/cellularAutomata/.cabal-sandbox/lib/x86_64-osx-ghc-8.2.1/distributive-0.5.3-JhCddFf7ooB4a6MBkynMRP
+cabal: Leaving directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-16205/distributive-0.5.3'

@@ -1,0 +1,13 @@
+cabal: Entering directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-16208/void-0.7.2'
+Configuring void-0.7.2...
+Preprocessing library for void-0.7.2..
+Building library for void-0.7.2..
+[1 of 1] Compiling Data.Void.Unsafe ( src/Data/Void/Unsafe.hs, dist/dist-sandbox-f7212ff3/build/Data/Void/Unsafe.o )
+[1 of 1] Compiling Data.Void.Unsafe ( src/Data/Void/Unsafe.hs, dist/dist-sandbox-f7212ff3/build/Data/Void/Unsafe.p_o )
+Preprocessing library for void-0.7.2..
+Running Haddock on library for void-0.7.2..
+Haddock coverage:
+ 100% (  3 /  3) in 'Data.Void.Unsafe'
+Documentation created: dist/dist-sandbox-f7212ff3/doc/html/void/index.html
+Installing library in /Users/callanmcgill/Documents/Haskell/cellularAutomata/.cabal-sandbox/lib/x86_64-osx-ghc-8.2.1/void-0.7.2-KNNEd7XG9bDRysTndgnf2
+cabal: Leaving directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-16208/void-0.7.2'

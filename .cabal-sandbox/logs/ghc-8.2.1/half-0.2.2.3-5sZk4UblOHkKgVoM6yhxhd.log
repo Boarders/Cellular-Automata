@@ -1,0 +1,236 @@
+cabal: Entering directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-3854/half-0.2.2.3'
+Configuring half-0.2.2.3...
+Preprocessing library for half-0.2.2.3..
+Building library for half-0.2.2.3..
+
+on the commandline: warning:
+    unrecognised warning flag: -fno-warn-missing-pat-syn-sigs
+[1 of 1] Compiling Numeric.Half     ( src/Numeric/Half.hs, dist/dist-sandbox-f7212ff3/build/Numeric/Half.o )
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4089_0/ghc_1.hscpp:219:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern POS_INF :: Half
+    |
+219 | pattern POS_INF = Half 0x7c00
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4089_0/ghc_1.hscpp:222:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern NEG_INF :: Half
+    |
+222 | pattern NEG_INF = Half 0xfc00
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4089_0/ghc_1.hscpp:225:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern QNaN :: Half
+    |
+225 | pattern QNaN    = Half 0x7fff
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4089_0/ghc_1.hscpp:228:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern SNaN :: Half
+    |
+228 | pattern SNaN    = Half 0x7dff
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4089_0/ghc_1.hscpp:231:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern HALF_MIN :: Half
+    |
+231 | pattern HALF_MIN = Half 0x0001  -- 5.96046448e-08
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4089_0/ghc_1.hscpp:234:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_NRM_MIN :: Half
+    |
+234 | pattern HALF_NRM_MIN = Half 0x0400  -- 6.10351562e-05
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4089_0/ghc_1.hscpp:237:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern HALF_MAX :: Half
+    |
+237 | pattern HALF_MAX = Half 0x7bff  -- 65504.0
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4089_0/ghc_1.hscpp:240:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_EPSILON :: Half
+    |
+240 | pattern HALF_EPSILON = Half 0x1400  -- 0.00097656
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4089_0/ghc_1.hscpp:243:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_DIG :: forall a. (Num a, Eq a) => a
+    |
+243 | pattern HALF_DIG = 2
+    | ^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4089_0/ghc_1.hscpp:246:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_MIN_10_EXP :: forall a. (Num a, Eq a) => a
+    |
+246 | pattern HALF_MIN_10_EXP = -4
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4089_0/ghc_1.hscpp:249:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_MAX_10_EXP :: forall a. (Num a, Eq a) => a
+    |
+249 | pattern HALF_MAX_10_EXP = 4
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+on the commandline: warning:
+    unrecognised warning flag: -fno-warn-missing-pat-syn-sigs
+[1 of 1] Compiling Numeric.Half     ( src/Numeric/Half.hs, dist/dist-sandbox-f7212ff3/build/Numeric/Half.p_o )
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4237_0/ghc_1.hscpp:219:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern POS_INF :: Half
+    |
+219 | pattern POS_INF = Half 0x7c00
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4237_0/ghc_1.hscpp:222:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern NEG_INF :: Half
+    |
+222 | pattern NEG_INF = Half 0xfc00
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4237_0/ghc_1.hscpp:225:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern QNaN :: Half
+    |
+225 | pattern QNaN    = Half 0x7fff
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4237_0/ghc_1.hscpp:228:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern SNaN :: Half
+    |
+228 | pattern SNaN    = Half 0x7dff
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4237_0/ghc_1.hscpp:231:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern HALF_MIN :: Half
+    |
+231 | pattern HALF_MIN = Half 0x0001  -- 5.96046448e-08
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4237_0/ghc_1.hscpp:234:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_NRM_MIN :: Half
+    |
+234 | pattern HALF_NRM_MIN = Half 0x0400  -- 6.10351562e-05
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4237_0/ghc_1.hscpp:237:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern HALF_MAX :: Half
+    |
+237 | pattern HALF_MAX = Half 0x7bff  -- 65504.0
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4237_0/ghc_1.hscpp:240:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_EPSILON :: Half
+    |
+240 | pattern HALF_EPSILON = Half 0x1400  -- 0.00097656
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4237_0/ghc_1.hscpp:243:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_DIG :: forall a. (Num a, Eq a) => a
+    |
+243 | pattern HALF_DIG = 2
+    | ^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4237_0/ghc_1.hscpp:246:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_MIN_10_EXP :: forall a. (Num a, Eq a) => a
+    |
+246 | pattern HALF_MIN_10_EXP = -4
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4237_0/ghc_1.hscpp:249:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_MAX_10_EXP :: forall a. (Num a, Eq a) => a
+    |
+249 | pattern HALF_MAX_10_EXP = 4
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Preprocessing library for half-0.2.2.3..
+Running Haddock on library for half-0.2.2.3..
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4479_0/ghc_1.hscpp:219:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern POS_INF :: Half
+    |
+219 | pattern POS_INF = Half 0x7c00
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4479_0/ghc_1.hscpp:222:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern NEG_INF :: Half
+    |
+222 | pattern NEG_INF = Half 0xfc00
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4479_0/ghc_1.hscpp:225:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern QNaN :: Half
+    |
+225 | pattern QNaN    = Half 0x7fff
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4479_0/ghc_1.hscpp:228:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern SNaN :: Half
+    |
+228 | pattern SNaN    = Half 0x7dff
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4479_0/ghc_1.hscpp:231:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern HALF_MIN :: Half
+    |
+231 | pattern HALF_MIN = Half 0x0001  -- 5.96046448e-08
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4479_0/ghc_1.hscpp:234:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_NRM_MIN :: Half
+    |
+234 | pattern HALF_NRM_MIN = Half 0x0400  -- 6.10351562e-05
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4479_0/ghc_1.hscpp:237:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature: pattern HALF_MAX :: Half
+    |
+237 | pattern HALF_MAX = Half 0x7bff  -- 65504.0
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4479_0/ghc_1.hscpp:240:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_EPSILON :: Half
+    |
+240 | pattern HALF_EPSILON = Half 0x1400  -- 0.00097656
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4479_0/ghc_1.hscpp:243:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_DIG :: forall a. (Num a, Eq a) => a
+    |
+243 | pattern HALF_DIG = 2
+    | ^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4479_0/ghc_1.hscpp:246:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_MIN_10_EXP :: forall a. (Num a, Eq a) => a
+    |
+246 | pattern HALF_MIN_10_EXP = -4
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4479_0/ghc_1.hscpp:249:1: warning: [-Wmissing-signatures]
+    Pattern synonym with no type signature:
+      pattern HALF_MAX_10_EXP :: forall a. (Num a, Eq a) => a
+    |
+249 | pattern HALF_MAX_10_EXP = 4
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Haddock coverage:
+  81% ( 13 / 16) in 'Numeric.Half'
+  Missing documentation for:
+    Half (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4479_0/ghc_1.hscpp:129)
+    HALF_MIN_10_EXP (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4479_0/ghc_1.hscpp:246)
+    HALF_MAX_10_EXP (/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/ghc4479_0/ghc_1.hscpp:249)
+Documentation created: dist/dist-sandbox-f7212ff3/doc/html/half/index.html
+Installing library in /Users/callanmcgill/Documents/Haskell/cellularAutomata/.cabal-sandbox/lib/x86_64-osx-ghc-8.2.1/half-0.2.2.3-5sZk4UblOHkKgVoM6yhxhd
+cabal: Leaving directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-3854/half-0.2.2.3'

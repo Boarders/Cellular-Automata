@@ -1,0 +1,17 @@
+cabal: Entering directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-16205/base-orphans-0.6'
+Configuring base-orphans-0.6...
+Preprocessing library for base-orphans-0.6..
+Building library for base-orphans-0.6..
+[1 of 2] Compiling Data.Orphans     ( src/Data/Orphans.hs, dist/dist-sandbox-f7212ff3/build/Data/Orphans.o )
+[2 of 2] Compiling Data.Orphans.Prelude ( src/Data/Orphans/Prelude.hs, dist/dist-sandbox-f7212ff3/build/Data/Orphans/Prelude.o )
+[1 of 2] Compiling Data.Orphans     ( src/Data/Orphans.hs, dist/dist-sandbox-f7212ff3/build/Data/Orphans.p_o )
+[2 of 2] Compiling Data.Orphans.Prelude ( src/Data/Orphans/Prelude.hs, dist/dist-sandbox-f7212ff3/build/Data/Orphans/Prelude.p_o )
+Preprocessing library for base-orphans-0.6..
+Running Haddock on library for base-orphans-0.6..
+Haddock coverage:
+ 100% (  1 /  1) in 'Data.Orphans'
+ 100% (  1 /  1) in 'Data.Orphans.Prelude'
+Documentation created:
+dist/dist-sandbox-f7212ff3/doc/html/base-orphans/index.html
+Installing library in /Users/callanmcgill/Documents/Haskell/cellularAutomata/.cabal-sandbox/lib/x86_64-osx-ghc-8.2.1/base-orphans-0.6-9iPDLrUqQ5yHb9fb9OUZ9L
+cabal: Leaving directory '/var/folders/lw/4gjsgzwj1fz0b0_w6xh5585h0000gn/T/cabal-tmp-16205/base-orphans-0.6'
