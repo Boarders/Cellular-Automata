@@ -96,8 +96,8 @@ wolframRule n (L' ls@(l:ls') x rs@(r:rs'))
 
 rule30 = wolframRule 30
 runRule30 = update rule30
-runRule = update (wolframRule ruleNumber)
-ruleNumber = 110
+runRule = update.wolframRule
+ruleNumber = 30
 
 startState :: ListZipper BW
 startState = L' (repeat Wh) Bl (repeat Wh)
@@ -115,11 +115,13 @@ stateFromMap mp = L' ((reverse ls) ++ (repeat Wh) ) centre (rs ++ (repeat Wh))
 
 width = 100
 
-iterateUpdate :: Int -> M.Map Int BW -> M.Map Int BW
-iterateUpdate 0 state = state
-iterateUpdate n state = iterateUpdate (n-1) newStateMap
+iterateUpdate :: Int -> Int -> M.Map Int BW -> M.Map Int BW
+iterateUpdate k 0 state = state
+iterateUpdate k n state = iterateUpdate k (n-1) newStateMap
   where newStateMap = toMap width newStateZipper
-        newStateZipper = runRule.stateFromMap $ state
+        newStateZipper = (runRule k).stateFromMap $ state
+
+
 
 
 

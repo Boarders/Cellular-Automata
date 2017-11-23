@@ -1,9 +1,12 @@
+{-#LANGUAGE ScopedTypeVariables#-}
 module Main where
 
 import Graphics.Gloss
 import Control.Applicative
 import Automata
 import qualified Data.Map.Strict as M
+import Data.Char (isDigit, digitToInt)
+import Data.Maybe (fromMaybe, listToMaybe)
 
 window :: Display
 window = InWindow "Nice Window" (windowWidth,windowHeight) (offset,offset)
@@ -38,19 +41,32 @@ render st = [Translate (fromIntegral $ 10*k) 250 | (k,_)<-alivesList] <*> (pure 
 
 
 main :: IO ()
-main = animation
+main = userInput
+
+userInput :: IO ()
+userInput = do putStrLn "Enter Wolfram rule number:"
+               maybeInt <-fmap maybeRead getLine :: IO (Maybe Int)
+               maybe (do putStrLn "That is not a number!"
+                         userInput)
+                     (animation)
+                     maybeInt
+               
+
+maybeRead :: Read a => String -> Maybe a
+maybeRead = fmap fst . listToMaybe . filter (null . snd) . reads
 
 
-animation = animate window background frame
+animation n = animate window background (frame n)
   where
-  frame :: Float -> Picture
-  frame sec
+  frame :: Int -> Float -> Picture
+  frame n sec
     | sec <  0 = Pictures []
-    | sec <= upper  = Pictures $ grid ++ [frame (sec-(1/5))] ++ ((Translate 0 (-10*ticker')) <$> (render $ iterateUpdate ticker startStateMap))
+    | sec <= upper  =
+      Pictures $ grid ++ [frame n (sec-(1/5))] ++ ((Translate 0 (-10*ticker')) <$> (render $ (iterateUpdate n ticker startStateMap)))
     | otherwise = final
       where speed = 5
             upper = (51/speed)
             ticker = floor $ sec*speed
             ticker' = fromIntegral ticker
-            final = frame upper
+            final = frame n upper
     
